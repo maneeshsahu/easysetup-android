@@ -1,0 +1,30 @@
+Samsung Artik Onboarding Android Application
+
+FEATURES
+
+1) Login/SignUp Artik Cloud Account
+2) Device Dashboard
+3) Device Control
+4) Onboarding - Artik 520,710,530, 020,030,05X modules
+5) Rules
+
+INSTALL
+
+Import the project in Android Studio.
+
+DEVELOPERS
+
+Please refer to the document QuickStart.md BEFORE making any changes to the source code.
+
+LICENSE
+
+Copyright Samsung ARTIK
+
+AUTHORS
+
+Samsung Artik E2E Development Team
+
+BUG REPORTING
+
+Report on artik.io forums
+

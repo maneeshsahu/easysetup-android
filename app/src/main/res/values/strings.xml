@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">ARTIK</string>
+    <string name="password">Password</string>
+    <string name="device_type_name">ARTIK Module</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="saddas">.</string>
+
+    <!-- menu screen-->
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+    <!--  Home Screen  -->
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+
+
+    <string name="submit">Submit</string>
+    <string name="cancel">CANCEL</string>
+    <string name="addnew">Add new module</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="bluetooth_enable_message">Bluetooth is required for connecting the module. Turn on Bluetooth?</string>
+
+    <!--  Add New Artik  -->
+    <string name="qr_code_text">Scan QR code</string>
+    <string name="modeselection">Easy Setup an ARTIK Module</string>
+    <string name="manual_input">Enter Serial Number, MAC ID(s)</string>
+    <string name="all_module">All</string>
+    <!-- Scan QR code  -->
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage.</string>
+    <string name="scan_qr">QR code scanning</string>
+    <string name="qrscan_footer_text1">Center the QR code in the window.</string>
+    <string name="qrscan_footer_text2">The UUID will be captured automatically.</string>
+
+    <!-- Manual Entry -->
+    <string name="manual">Please enter details</string>
+    <string name="modelNo">Model number</string>
+    <string name="modelName">Model name</string>
+    <string name="modelId">Module Info </string>
+    <string name="modelLocation">Module location:</string>
+    <string name="uuiderrormessage">Enter correct UUID </string>
+    <string name="errordialogmessage">Module Info is invalid.</string>
+    <string name="enter_valid_moduleId">Enter valid module Info</string>
+    <string name="enter_moduleId">Please enter valid module Info.\n\n
+    Ex: SN,MAC1,MAC2 (Gateway devices) or \n
+    Ex: SN,MAC1 (End Node devices)
+    </string>
+
+    <!-- QR Code Details -->
+    <string name="qr_code">QR code</string>
+    <string name="no_barcode">No barcode detected.</string>
+    <string name="detector_dependency">Detector dependencies are not yet available.</string>
+    <string name="camera_permission">Camera permission is not granted. Requesting permission.</string>
+    <string name="camera_notstarted">Unable to start camera source.</string>
+    <string name="invalid_qr">Barcode graphic is invalid.</string>
+    <string name="qr_code_example">UUID 000198125</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="module_id">Enter module info</string>
+    <string name="module_location">Enter module location</string>
+    <string name="module_name">Enter module name</string>
+    <string name="skip">Skip</string>
+    <string name="enter">Enter</string>
+    <string name="continue_text">Continue</string>
+    <string name="artik_module_identified">ARTIK module identified</string>
+    <string name="errormessage1">Your QR code is incorrect.</string>
+    <string name="errormessage2">Please scan again.</string>
+
+    <!-- Plug-In Screen -->
+    <string name="Registersuccess">Registration successful</string>
+    <string name="plug_in_footer_text">Ensure module is powered to continue onboarding.</string>
+    <string name="plug_in">Apply power to your ARTIK module</string>
+
+    <!--  Pairng Devices -->
+    <string name="pairing_devices">Pairing device</string>
+    <string name="wait_text">Please wait...</string>
+    <string name="device_paired_txt">Device paired</string>
+    <string name="connect_wifi">Connect to Wi-Fi</string>
+    <string name="bluetooth_permission_error">Permission denied. Cannot proceed further.</string>
+
+    <!-- Wifi Screen -->
+    <string name="avilable_wifi">Available Wi-Fi networks</string>
+    <string name="wifi_name">Wi-Fi</string>
+    <string name="show_password">Show password</string>
+    <string name="enter_wifi_password">Enter Wi-Fi password</string>
+    <string name="connecting">Connecting</string>
+    <string name="hide_pwd">Hide password</string>
+    <string name="show_pwd">Show password</string>
+
+    <string name="registeration_success">Your device has been successfully registered on ARTIK Cloud.</string>
+    <string name="registeration_successful">Registration successful</string>
+
+    <string name="register_cloud">Registering module to ARTIK cloud</string>
+
+    <!-- Error screen -->
+
+    <string name="ok">OK</string>
+    <string name="error_text">Wi-Fi connection error</string>
+    <string name="invalid_ssid">Invalid SSID</string>
+    <string name="invalid_password">Invalid password.</string>
+    <string name="wifi_connection_failed">Wi-Fi connection failed.</string>
+    <string name="no_ip_address">No IP address</string>
+    <string name="internet_unavailable">Internet unavailable</string>
+    <string name="invalid_wifi_status">Invalid Wi-Fi status</string>
+    <string name="invalid_mac_address">Invalid MAC address</string>
+    <string name="technical_code_on_error">Registration Error. Technical code</string>
+    <string name="module">Module</string>
+
+    <string name="Confirm">Confirm</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Info screen -->
+    <string name="internet_logout_failure_message">Logout failed.</string>
+    <string name="internet_failure_message">No internet connection.</string>
+    <string name="wifi_failure_message">Please turn on Wi-Fi to continue scanning.</string>
+    <string name="fetching_wifi_network">Fetching available Wi-Fi networks</string>
+    <string name="wifi_network_message">Please connect to internet to register module.</string>
+    <string name="bluetooth_failed_message">Bluetooth turned off.</string>
+    <string name="bluetooth_failed_message_wifiscreen">Bluetooth turned off.</string>
+
+    <string name="internet_failure_message_homescreen_error1">No internet connection.</string>
+    <string name="internet_failure_message_homescreen_error2">Cannot fetch devices.</string>
+    <string name="delete_failure_message">Delete failed.</string>
+
+    <string name="information">Information</string>
+    <string name="module_registration_date">Module registered date:</string>
+    <string name="module_registration_date_example">06/11/2016</string>
+    <string name="module_name_example">ARTIK 5</string>
+    <string name="module_location_example">Living room</string>
+    <string name="moduleid">Module ID:</string>
+    <string name="model_name_information">Module name:</string>
+    <string name="delete">Delete</string>
+    <string name="delete_message">Are you sure you want to delete this module?</string>
+    <string name="unabletoidentify">Unable to identify module.</string>
+    <string name="board_connection">Plug in the board.</string>
+
+    <string name="qrcode">QR code</string>
+    <string name="registering_module_text">Registering module to ARTIK cloud</string>
+    <string name="succesfully_registered_text">Successfully connected to Wi-Fi</string>
+    <string name="namecharerror">Name must be minimum 5 characters &amp; maximum 64 characters</string>
+    <string name="locationcharerror">Location must be a minimum of 4 characters</string>
+    <string name="fetchingdata">Fetching the registered modules</string>
+    <string name="deletingdata">Deletion in progress</string>
+    <string name="connecting_message">Connecting to Wi-Fi</string>
+
+    <string name="dismiss_home_screen">Are you sure you want to exit?</string>
+    <string name="unknown">Unspecified</string>
+    <string name="bluetooth_search_failed">Bluetooth connection failed.</string>
+    <string name="bluetooth_permission_failure">Location permission is required for Bluetooth scan. Please go to the application settings and provide permission to proceed further.</string>
+    <string name="camera_permission_failure">Camera permission is required for QR scan. Please go to the application settings and provide permission to proceed further.</string>
+    <string name="camera_permission_failure_deny">Camera permission is required for QR scan.</string>
+    <string name="wifi_permission_failure">Location permission is required for Wi-Fi scan. Please go to the application settings and provide permission to proceed further.</string>
+    <string name="bluetooth_available">Please connect to Bluetooth.</string>
+    <string name="empty_password">Please enter password.</string>
+    <string name="bluetooth_connection_failed">Bluetooth connection failed.</string>
+    <string name="no_registered_gateway_devices_title">No registered gateway module</string>
+    <string name="no_registered_gateway_devices_message">Please register gateway modules to onboard the edge nodes.</string>
+    <string name="edge_node_title_text">Choose one of the below gateway modules to link and register the ARTIK 0 module.</string>
+    <string name="registered_gateway_modules">Discovered gateway modules</string>
+
+    <string name="unknown_error_message1">CONNECTION ERROR</string>
+    <string name="unknown_error_message2">Cannot connect to module due to unknown error. Please try again later.</string>
+
+    <string name="confirmation_wifi_availability">Wi-Fi setting to be turned on for Wi-Fi network scanning. Turn on Wi-Fi?</string>
+    <string name="no_wifi_network_available_header">No Wi-Fi network available.</string>
+    <string name="no_wifi_network_available_message">Please turn on your Wi-Fi network.</string>
+    <string name="manual_input_description">Ex: SN, MAC1 , MAC2 (Gateway devices)</string>
+
+    <string name="no_registered_module_available">No registered ARTIK module found</string>
+    <string name="gateway_confirmation_msg">Are you sure you want to continue?</string>
+
+    <string name="loading_text">Loading</string>
+    <string name="no_response">No response from module.</string>
+    <string name="device_not_found">Device not found.</string>
+
+
+    <string name="application_name">Application name :</string>
+    <string name="application_version">Application version :</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="no_message_available">This device does not have any fields</string>
+    <string name="action_failed">FAILED to send the action</string>
+    <string name="action_success">SUCCEEDED to send the action</string>
+    <string name="device_offline">Device is not online</string>
+    <string name="send">Send</string>
+    <string name="cancelsmall">Cancel</string>
+    <string name="enter_here">Enter here ...</string>
+    <string name="device_action_not_supported">Multi Level Manifest is not supported</string>
+    <string name="no_actions_available">There are no actions provisioned for this device type</string>
+    <string name="delete_success_message">Successfully deleted the device</string>
+
+    <string name="save_password">Save password</string>
+    <string name="no_save_password">Do not save password</string>
+    <string name="unable_to_fetch_ap_list">Unable to fetch Access Point List</string>
+
+
+    <string name="configuring_wifi">Configuring Wifi</string>
+    <string name="artikcaps">ARTIK</string>
+    <string name="identified">identified</string>
+    <string name="artikmoduleidentified">ARTIK Module identified</string>
+    <string name="not_supported_caps">NOT SUPPORTED</string>
+    <string name="fields_caps">FIELDS</string>
+    <string name="actions_caps">ACTIONS</string>
+    <string name="messages_caps">MESSAGES</string>
+    <string name="wifi_onboarding">Wifi Onboarding</string>
+    <string name="searching_module">Searching for the module</string>
+    <string name="unable_to_find_module">Unable to find the module</string>
+    <string name="fetching_ap_list">Fetching the list of Access Points</string>
+    <string name="searching_device_local_wifi">Searching device on Local Wifi</string>
+    <string name="module_not_found">Unable to search the module on Local Wifi</string>
+    <string name="never_connected">Never Connected</string>
+    <string name="last_activity">Last Activity</string>
+    <string name="no_hubs_found">No Hubs Found</string>
+    <string name="no_hubs_found_description">Please check if your smartphone is connected to the same WiFi Network as the Gateway Hub</string>
+    <string name="select_gatewayhub">Please select hub to link</string>
+    <string name="error">Error</string>
+    <string name="registering">Registering</string>
+    <string name="technical_error_description">Technical Error Description :</string>
+    <string name="error_code">Error Code</string>
+    <string name="error_same_name">A device with same name already exists</string>
+    <string name="default_device_name_error">Please enter a name as a device with default name already exists</string>
+    <string name="oslicense">View Open Source Libraries</string>
+    <string name="website">     artik.io and artik.cloud</string>
+    <string name="site">Website : </string>
+    <string name="gateway_name">Enter Gateway Password</string>
+    <string name="enter_gateway_password">Enter Admin Password</string>
+    <string name="auth_failure">Authentication Error.</string>
+    <string name="finish">Finish</string>
+
+
+</resources>

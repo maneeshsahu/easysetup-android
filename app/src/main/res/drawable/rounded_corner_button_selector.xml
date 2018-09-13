@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/roundedcorner_whitebackground" />
+    <item android:state_enabled="true"  android:state_focused="true" android:drawable="@drawable/roundedcorner_whitebackground"  />
+    <item android:state_enabled="true"  android:state_pressed="true" android:drawable="@drawable/roundcorner_unselected_design"/>
+    <item android:state_enabled="false" android:drawable="@drawable/roundedcorner_greybackground" />
+    <item android:drawable="@drawable/roundedcorner_whitebackground" />
+</selector>

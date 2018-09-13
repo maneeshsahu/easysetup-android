@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundedcorner_whitebackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:background="@mipmap/confirmation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_23sdp"
+            android:gravity="bottom"
+            android:textColor="@android:color/black"
+            android:text="@string/are_you_sure"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:id="@+id/message_header"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center_horizontal|center"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@android:color/black"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:lineSpacingExtra="1dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text=""
+        android:id="@+id/message_body"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16sdp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/left_alert_button_selector"
+            android:text="@string/no"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@drawable/button_text_selector"
+            />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:background="@drawable/left_alert_button_selector"
+            android:text="@string/yes"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@drawable/button_text_selector"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

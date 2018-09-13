@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/black_color_background"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lltitlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool_bar"
+            android:id="@+id/toolbar"/>
+
+        <include layout="@layout/title_bar" android:id="@+id/title_bar"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_registered_device_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:background="@color/black_color_background"
+            android:layout_alignParentBottom="true"
+            >
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/rounded_cornor_button_selector"
+                android:text="@string/ok"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+
+            >
+            <TextView
+                android:id="@+id/message_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:selectAllOnFocus="false"
+                android:linksClickable="false"
+                android:gravity="center"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:text="@string/no_registered_gateway_devices_title"
+                />
+            <TextView
+                android:id="@+id/message_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:selectAllOnFocus="false"
+                android:linksClickable="false"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/white"
+                android:text="@string/no_registered_gateway_devices_message"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black_color_background"
+        android:visibility="gone"
+        android:layout_below="@+id/lltitlebar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edge_node_title_text"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_2sdp"/>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:divider="@color/divider_line_color"
+            android:dividerHeight="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_weight="4"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/progress_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:lines="1"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/toolbar_bg"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/saddas"
+             />
+
+        <ProgressBar
+            style="@style/Base.Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:background="@android:color/transparent"
+            android:indeterminateTint="@color/toolbar_bg"
+            android:indeterminateTintMode="src_atop" />
+
+        <TextView
+            android:id="@+id/progress_message"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:lines="1"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/toolbar_bg"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/saddas"
+             />
+
+</LinearLayout>

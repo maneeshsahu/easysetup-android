@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_color_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_weight="8.8"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="7">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_weight="2.5"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_2sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/artik_small" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="bottom"
+                android:text="@string/modelId"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <EditText
+                android:id="@+id/enterModuleID"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner_edittext_container"
+                android:hint="@string/module_id"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true"
+                android:maxLength="50"
+                android:textColorHint="@color/divider_line_color"
+                 >
+
+            </EditText>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:background="@color/divider_line_color"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:gravity="bottom"
+                android:text="@string/manual_input_description"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.2"
+            android:background="@color/black_color_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/rounded_cornor_button_selector"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

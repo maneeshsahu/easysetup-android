@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_color_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <include layout="@layout/title_bar" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/modeselection"
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:background="@color/actionbar_color" />
+
+        <LinearLayout
+            android:id="@+id/llqrscan"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_weight="1"
+            android:background="@drawable/qrcode_button_selector"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/qrScan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/qr_code_text" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/actionbar_color" />
+
+        <LinearLayout
+            android:id="@+id/llmanualInput"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/manual_button_selector"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            >
+
+            <Button
+                android:id="@+id/manualInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/manual_input" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
