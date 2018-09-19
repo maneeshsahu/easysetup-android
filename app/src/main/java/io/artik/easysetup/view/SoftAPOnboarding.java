@@ -180,7 +180,7 @@ public class SoftAPOnboarding extends Activity implements View.OnClickListener {
         public void onAPProvisionDevice(boolean success) {
             if (success) {
                 hideProgressBar();
-                /*Intent activityIntent = new Intent(getApplicationContext(), RegisterationSuccessActivity.class);
+                /*Intent activityIntent = new Intent(getApplicationContext(), RegistrationSuccessActivity.class);
                 startActivity(activityIntent);*/
                 finish();
             }

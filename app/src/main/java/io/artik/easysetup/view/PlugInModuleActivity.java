@@ -15,6 +15,7 @@ import android.widget.TextView;
 import java.util.UUID;
 
 import io.artik.easysetup.R;
+import io.artik.easysetup.ble.ArtikGattServices;
 import io.artik.easysetup.util.Constants;
 import io.artik.easysetup.util.Module;
 
@@ -102,8 +103,8 @@ public class PlugInModuleActivity extends Activity implements View.OnClickListen
         int moduleVersion = Integer.valueOf(mModule.getType());
         if (moduleVersion >= 3) {
             Log.i(TAG, "ARTIK Gateway Module identified");
-            Intent data = new Intent(this, SoftAPOnboarding.class);
-            //data.putExtra(Constants.DISCOVERED_SERVICE_ID, ArtikGattServices.SERVICE_UUID.toString());
+            Intent data = new Intent(this, PairingDeviceActivity.class);
+            data.putExtra(Constants.DISCOVERED_SERVICE_ID, ArtikGattServices.SERVICE_UUID.toString());
             Bundle bundle = new Bundle();
             bundle.putParcelable(Constants.MODULE_INFO, mModule);
             data.putExtra(Constants.MODULE_INFO_BUNDLE, bundle);

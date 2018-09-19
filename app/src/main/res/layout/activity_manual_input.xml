@@ -57,14 +57,14 @@
                 android:layout_marginTop="12dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_corner_edittext_container"
-                android:hint="@string/module_id"
-                android:singleLine="true"
-                android:textColor="@color/white"
                 android:descendantFocusability="beforeDescendants"
                 android:focusableInTouchMode="true"
+                android:hint="@string/module_id"
                 android:maxLength="50"
-                android:textColorHint="@color/divider_line_color"
-                 >
+                android:singleLine="true"
+                android:text="710MWC2P10000230,702C1F31BFCC,702C1F31BFCD"
+                android:textColor="@color/white"
+                android:textColorHint="@color/divider_line_color">
 
             </EditText>
 

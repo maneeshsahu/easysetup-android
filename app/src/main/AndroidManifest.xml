@@ -61,9 +61,29 @@
             android:name=".view.ManualInputActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".view.PairingDeviceActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.DevicePairedActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".view.SoftAPOnboarding"
             android:keepScreenOn="true"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.WiFiListActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.RegistrationSuccessActivity"
+            android:keepScreenOn="true"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".ble.BLEConnectionManager"
+            android:enabled="true" />
 
         <meta-data
             android:name="com.google.android.gms.version"

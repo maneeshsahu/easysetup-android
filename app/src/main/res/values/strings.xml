@@ -64,6 +64,7 @@
     <string name="skip">Skip</string>
     <string name="enter">Enter</string>
     <string name="continue_text">Continue</string>
+    <string name="provision_another">Provision another module</string>
     <string name="artik_module_identified">ARTIK module identified</string>
     <string name="errormessage1">Your QR code is incorrect.</string>
     <string name="errormessage2">Please scan again.</string>
@@ -89,9 +90,9 @@
     <string name="hide_pwd">Hide password</string>
     <string name="show_pwd">Show password</string>
 
-    <string name="registeration_success">Your device has been successfully registered on ARTIK Cloud.</string>
+    <string name="registeration_success">Your module has been successfully provisioned with WiFi.</string>
     <string name="registeration_successful">Registration successful</string>
-
+    <string name="registration_failed">Registration failed</string>
     <string name="register_cloud">Registering module to ARTIK cloud</string>
 
     <!-- Error screen -->
@@ -106,6 +107,8 @@
     <string name="invalid_wifi_status">Invalid Wi-Fi status</string>
     <string name="invalid_mac_address">Invalid MAC address</string>
     <string name="technical_code_on_error">Registration Error. Technical code</string>
+    <string name="registration_error">Registration Error. Check if the module is not already registered.</string>
+    <string name="registration_complete_error">Unable to complete the registration</string>
     <string name="module">Module</string>
 
     <string name="Confirm">Confirm</string>
